@@ -7,6 +7,9 @@ Example:
     # On Linux Os
     $ chmod +x e_func.pl      # step 1
     $ ./e_func.pl archive/    # step 2
+    
+    # OR
+    $ perl e_func.pl archive  # one time
 
 TODO
 
