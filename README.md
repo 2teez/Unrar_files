@@ -2,11 +2,12 @@ This perl script 'e_func.pl' unrar files saved in different folders in a directo
 
 Example:
 
-    e_func.pl archive      # on Win Os
+    e_func.pl archive         # on Win Os
     
     # On Linux Os
-    $ chmod +x e_func.pl   # step 1
-    $ ./e_func.pl archive/ # step 2
+    $ chmod +x e_func.pl      # step 1
+    $ ./e_func.pl archive/    # step 2
 
 TODO
+
 Use Module Archive::Unrar from www.cpan.org to unrar on win OS.
