@@ -42,6 +42,6 @@ sub make_dir_copy_n_unrar_archive {
     copy $old_file, $new_folder;
     my $file = catfile( $new_folder, $filename );
 
-    ## unrar files in their new folders, used only in *MS OS
+    ## unrar files in their new folders, used only in MS - window OS
     system("unrar e $file $new_folder") if $^O ne 'MSWin32';
 }
